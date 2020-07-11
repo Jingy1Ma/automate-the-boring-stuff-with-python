@@ -140,7 +140,7 @@ the Response object has a status_code attribute that can be checked against `req
 Traceback (most recent call last):
   File "<pyshell#11>", line 1, in <module>
     res.raise_for_status()
-  File "C:\Users\JY\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\models.py", line 941, in raise_for_status
+  File "Your_path\models.py", line 941, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://inventwithpython.com/page_that_does_not_exist
 ```
